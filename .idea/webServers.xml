@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ssh://sejacob@puck.cim.mcgill.ca:22/home/mixqui/sejacob/.virtualenvs/ANOM/bin/python" name="puck">
+        <fileTransfer host="puck.cim.mcgill.ca" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4bc23749-d8e1-4f74-b2c6-f0c3541a4dd2" name="guillimin" url="http://guillimin.hpc.mcgill.ca">
+        <fileTransfer host="guillimin.hpc.mcgill.ca" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
